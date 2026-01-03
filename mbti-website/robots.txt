@@ -1,0 +1,25 @@
+# robots.txt - MBTI人格测试网站
+
+# 允许所有搜索引擎抓取
+User-agent: *
+Allow: /
+
+# 禁止抓取管理员页面
+Disallow: /admin.html
+
+# 禁止抓取脚本和样式文件
+Disallow: /script.js
+Disallow: /style.css
+Disallow: /theme.css
+
+# 禁止抓取支付相关页面
+Disallow: /pay.php
+Disallow: /payment.js
+Disallow: /notify.php
+
+# 禁止抓取临时文件
+Disallow: /temp/
+Disallow: /tmp/
+
+# 站点地图位置
+Sitemap: https://你的域名.com/sitemap.xml
