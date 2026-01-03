@@ -1,0 +1,49 @@
+{
+  "testType": "classic",
+  "totalQuestions": 90,
+  "dimension": ["EI", "SN", "TF", "JP"],
+  "questions": [
+    {
+      "id": 1,
+      "stem": "在社交场合中，你更倾向于？",
+      "options": [
+        { "text": "主动和陌生人攀谈，享受热闹氛围", "dimension": "EI", "value": "E" },
+        { "text": "待在熟悉的人身边，避免不必要的社交", "dimension": "EI", "value": "I" }
+      ]
+    },
+    {
+      "id": 2,
+      "stem": "当你规划一件事时，更注重？",
+      "options": [
+        { "text": "具体的执行步骤和实际可操作性", "dimension": "SN", "value": "S" },
+        { "text": "未来的发展前景和潜在的可能性", "dimension": "SN", "value": "N" }
+      ]
+    },
+    {
+      "id": 3,
+      "stem": "做决策时，你通常会？",
+      "options": [
+        { "text": "依据客观事实和理性分析", "dimension": "TF", "value": "T" },
+        { "text": "考虑他人感受和人际关系和谐", "dimension": "TF", "value": "F" }
+      ]
+    },
+    {
+      "id": 4,
+      "stem": "对于生活节奏，你更偏好？",
+      "options": [
+        { "text": "有明确的计划，按部就班执行", "dimension": "JP", "value": "J" },
+        { "text": "灵活随性，根据情况随时调整", "dimension": "JP", "value": "P" }
+      ]
+    },
+    // 以下省略86道题（结构与上述一致，按EI/SN/TF/JP循环排布，总题数90道）
+    // 你可根据实际需求补充，或直接复用此结构批量生成，核心保持“每题对应一个维度”即可
+    {
+      "id": 90,
+      "stem": "当你需要学习一项新技能时，更倾向于？",
+      "options": [
+        { "text": "先看实操教程，动手尝试后再总结理论", "dimension": "SN", "value": "S" },
+        { "text": "先掌握核心理论框架，再逐步落地实操", "dimension": "SN", "value": "N" }
+      ]
+    }
+  ]
+}
